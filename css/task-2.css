@@ -1,0 +1,14 @@
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  row-gap: 48px;
+}
+.image-item {
+  width: calc((100% - 48px) / 3);
+}
