@@ -13,6 +13,6 @@ function handleSubmit(event) {
     return alert(`All form fields must be filled in`);
   }
 
-  console.log(info.trim());
+  console.log(info);
   event.currentTarget.reset();
 }
